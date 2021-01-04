@@ -1,0 +1,6 @@
+app/server/agents/AAM/data
+app/server/agents/video_sample
+venv/
+app/server/agents/db.csv
+.idea/misc.xml
+.idea/FERforReviews.iml
