@@ -15,7 +15,7 @@ class ImageProcessor(object):
     def generate(self, image_path, show_result):
         img = cv2.imread(image_path)
         if (img is None):
-            print("Can't open image file")
+            # print("Can't open image file")
             return 0
 
         faces = self.face_cascade.detectMultiScale(img, 1.1, 3)
